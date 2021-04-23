@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(11,13,27);
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 956px;
+    width: 375px;
+    /* margin: 65px 40px; */
+    /* margin-top: 55px; */
+    background-color: rgb(11,13,27);
+}
+
+.inside{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 900px;
+    width: 320px;
+    /* border: 2px solid rgb(247, 8, 8); */
+    border-radius: 10px;
+    /* border-color: rgb(247, 8, 8); */
+    /* background-color: rgb(24, 80, 236); */
+} 
+
+.content{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 320px;
+    /* height: 400px; */
+    height: 70%;
+    padding: 0px 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29,25,57);
+    
+}
+
+.other{
+    display: flex;
+    float: right;
+    height: 30%;
+    width: 320px;
+    /* margin-left: 10px; */
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 8px; */
+    /* color:rgb(156,85,204); */
+    /* background-repeat: no-repeat, repeat; */
+    background-image: linear-gradient(45deg, rgba(56, 5, 83, 0.62), rgba(56, 5, 83, 0.62)), url("../images/image-header-mobile.jpg");
+    background-size: cover;
+}
+
+.other img{
+    /* color: rgb(156,85,204); */
+    background-image: linear-gradient(to right, red , yellow);
+    width:375px;
+    height:400px;
+
+}
+
+.first{
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    margin: 0px 20px;
+    text-align: center;
+    text-justify: inter-word;
+    justify-content: center;
+}
+
+.second{
+    margin: 0px 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 1.15rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.third{
+    margin: 10px 20px;
+    display: flex;
+    text-align: center;
+    text-justify: inter-word;
+    flex-direction: column;
+    /* padding: 0px 100px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.num{
+    font-size: 1.5rem;
+    align-items: center;
+    /* margin: 0px 10px; */
+    justify-content: center;
+    /* font-style: bold; */
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
